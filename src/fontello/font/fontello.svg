@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="user" unicode="&#xe800;" d="M714 69q0-60-35-104t-84-44h-476q-49 0-84 44t-35 104q0 48 5 90t17 85 33 73 52 50 76 19q73-72 174-72t175 72q42 0 75-19t52-50 33-73 18-85 4-90z m-143 495q0-88-62-151t-152-63-151 63-63 151 63 152 151 63 152-63 62-152z" horiz-adv-x="714.3" />
+
+<glyph glyph-name="diamond" unicode="&#xf219;" d="M118 421l348-371-167 371h-181z m453-430l195 430h-389z m-271 502l114 214h-146l-161-214h193z m377-443l348 371h-181z m-296 443h381l-114 214h-153z m462 0h193l-161 214h-146z m78 271l215-286q7-10 7-23t-10-22l-535-572q-10-11-27-11t-26 11l-535 572q-9 9-10 22t7 23l215 286q10 15 28 15h643q18 0 28-15z" horiz-adv-x="1142.9" />
+</font>
+</defs>
+</svg>

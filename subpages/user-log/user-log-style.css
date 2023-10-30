@@ -1,0 +1,94 @@
+body {
+    margin: 0; /* ustawai margin w całym tagu "body" */
+    padding: 0; /* ustawai padding w całym tagu "body" */
+    /* overflow: hidden; */
+    font-family: sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw; /* ustawia szerokość w vw (view width - szerokość okna naszej przeglądarki) */
+    height: 100vh; /* ustawia wysokość w vh (vie height - wysokość okna naszej przeglądarki) */
+    display: flex; /* ustawai element jako flex */
+    flex-direction: column; /* ustawia elementy w kolumnie */
+}
+
+.header {
+    height: 15%; /* ustawia wysokość w % */
+    width: 100%; /* ustawia szerokość w % */
+    display: flex; /* ustawai element jako flex */
+    align-items: center; /* ustawia elementy na środku (wyśrodkowuje je) */
+    background-color: #333; /* ustawai kolor tła */
+    color: white; /* ustawai kolor czcionki */
+}
+
+.logospan {
+    background-color: #007bff;
+    border-radius: 20px;
+    padding: 5px;
+}
+.logo {
+    height: 90%; /* ustawia wysokość w % */
+    width: 50%; /* ustawia serokość w % */
+    margin-left: 2%; /* ustawia margin po lewo */
+    margin-right: 35%; /* ustawia margin po prawo */
+	box-sizing: border-box;
+    font-size: 110px;
+    color: white;
+}
+.logo a {
+    color: white;
+}
+
+.premium, .user {
+    height: 70%; /* ustawia wysokość w % */
+    width: 7%; /* ustawia szerokość w % */
+    margin: 2%; /* ustawia margin do okoła elementu na 2% */
+    /* background-color: #007bff; */
+    color: white; /* ustawia kolor czcionki na biały */
+}
+
+.content {
+    height: 85%; /* ustawia wysokość w % */
+    width: 100%; /* ustawia szerokość w % */
+    display: flex; /* ustawai element jako flex */
+    flex-direction: row; /* ustawia elementy w szeregu */
+}
+
+.login {
+    height: 100%; /* ustawia wysokość w % */
+    width: 50%; /* ustawia szerokość w % */
+    text-align: center; /* ustawia elementy na środku (wyśrodkowuje je) */
+    font-size: 25px; /* utawai rozmiar czcionki an 25px */
+}
+
+.login-form {
+    height: 35%; /* ustawia wysokość w % */
+    width: 40%; /* ustawia szerokość w % */
+    margin-top: 20%; /* ustawia mrgin na górze na 20% */ 
+    margin-left: 20%; /* ustawia margin z lewej na 20% */
+    padding: 3%; /* ustawai padding na 2% */
+    background-color: #ccc; /* ustawai kolor tła */
+    border-radius: 5%; /* ustawai border na 5% */
+}
+
+.register {
+    height: 100%; /* ustawia wysokość w % */
+    width: 50%; /* ustawia szerokość w % */
+    text-align: center; /* ustawia elementy na środku (wyśrodkowuje je) */
+    font-size: 25px; /* ustawia rozmiar czcionki na 25px */
+}
+
+.register-form {
+    height: 35%;
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 3%;
+    background-color: #ccc;
+    border-radius: 5%;
+}

@@ -1,0 +1,69 @@
+body { /* stylizujemy tag "body" naszej strony */
+    margin: 0; /* ustawia odstęp między elementami bez wypełnienia */
+    padding: 0; /* to samo co margin ale z wypełnieniem */
+    overflow: hidden; /* jeżeli strona wyjdzie po za rozdzielczość monitora ukrywa to */
+    font-family: sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container { /* stylizujey dany element strony po jego id */
+    width: 100vw; /* ustawia szerokość strony na 100 view width */
+    height: 100vh; /* ustawia wysokość strony na 100 view height */
+    display: flex; /* ustawia element jako flex abyśmy mogi układać elementy strony */
+    flex-direction: column; /* ustawia elementy znajdujące się w containerze w kolumnie */
+}
+
+.header {
+    height: 15%; /* ustawia wysokość w % */
+    width: 100%; /* ustawia serokość w % */
+    display: flex; /* ustawaia lement jako flex */
+    align-items: center; /* wyśrodkowuje divy */
+    background-color: #333; /* zmienia kolor tła */
+    color: white; /* zmienia kolor czcionki */
+}
+
+.logospan {
+    background-color: #007bff;
+    border-radius: 20px;
+    padding: 5px;
+}
+.logo {
+    height: 90%; /* ustawia wysokość w % */
+    width: 50%; /* ustawia serokość w % */
+    margin-left: 2%; /* ustawia margin po lewo */
+    margin-right: 35%; /* ustawia margin po prawo */
+	box-sizing: border-box;
+    font-size: 110px;
+    color: white;
+}
+.logo a {
+    color: white;
+}
+
+.premium, .user { /* stylizujemy dwa rózne elementy */
+    height: 70%; /* ustawia wysokość w % */
+    width: 7%; /* ustawia serokość w % */
+    margin: 2%; /* ustawia margin do okoła elementó strony */
+    margin-right: 2%; /* ustawia margin z prawej strony */
+    color: white; /* ustawia kolor czcionki lub też znaków na biały */
+}
+
+.content {
+    height: 85%; /* ustawia wysokość w % */ 
+    width: 100%; /* ustawia szerokość w % */
+    display: flex; /* ustawia element jako flex */
+    flex-direction: row; /* ustawia układ elementów za pomocą flex jako szereg */
+}
+
+.questions { /* stylizujemy kawałęk strony po jego id */
+    height: 20%; /* ustawia wysokość w % */
+    width: 20%; /* ustawai szerokość w % */
+    padding: 3%; /* ustawaia padding w % */
+    margin: 5%; /* ustawai margin w % */
+    background-color: #ccc; /* ustawai kolor tła */
+    text-align: center; /* sprawia że wszystko jest wyśrodkowane */
+}

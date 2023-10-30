@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!-- Zapis informujący przeglądarke iż kod jest napisany w wersji HTML5 -->
+<html lang="en"> <!-- W znaczniku "html" zapisujemy całą naszą strone -->
+<head> <!-- W znaczniku "head" zwieramy informacje o stronie takie jak tytuł, standard znakowy i inne -->
+    <meta charset="UTF-8"> <!-- ustawia standard znakowy -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- kompatybilnosc -->
+    <title>Document</title> <!-- tytuł dokumentu -->
+
+    <link rel="stylesheet" href="./style-main.css"> <!-- link który podłącza plik css do html -->
+    <link rel="stylesheet" href="./src/fontello/css/fontello.css"> <!-- drugi link który podłącza plik css do html -->
+</head> <!-- znacznik zamykający sekcje "head" -->
+<body> <!-- znacznik otwierający sekcje "body" -->
+    <div class="container">  <!-- div który będzie trzymał w sobie reszte divów -->
+        <div class="header"> <!-- div header czyli nagłówek naszej strony -->
+            <div class="logo"><a href="./index.html"><span class="logospan">Quizify</span></a></div> <!-- div który odpowiada za logo -->
+            <div class="premium"><i class="icon-diamond"></i></div> <!-- div który jest odnosikiem do strony z premium -->
+            <a href="./subpages/user-log/user-log.html"> <!-- link do podstorny -->
+                <div class="user"><i class="icon-user"></i></div> <!-- div który jest odnośnikiem (linkiem) do strony logowania -->
+            </a>
+        </div>
+        <div class="content-box"> <!-- div w którym umieszaczamy naszą zawartość strony -->
+            <div class="menu"> <!-- div w którym umieszczamy menu -->
+                <div class="column"> <!-- div columny w którym umieścimy divy które będą odnośnikami do pod stron -->
+                    <a href="./subpages/math/math.html"> <!-- link do podstrony naszej strony -->
+                        <div class="quiz-link">Mat</div> <!-- wspomniany wyżej odnośnik do podstrony -->
+                    </a>
+                    <div class="quiz-link">Quiz 2</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                    <div class="quiz-link">Quiz 3</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                </div>
+                <div class="column"> <!-- div columny w którym umieścimy divy które będą odnośnikami do pod stron -->
+                    <div class="quiz-link">Quiz 3</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                    <div class="quiz-link">Quiz 5</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                    <div class="quiz-link">Quiz 6</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                </div>
+                <div class="column"> <!-- div columny w którym umieścimy divy które będą odnośnikami do pod stron -->
+                    <div class="quiz-link">Quiz 7</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                    <div class="quiz-link">Quiz 8</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                    <div class="quiz-link">Quiz 9</div> <!-- div który w przyszłości będzie linkiem (Tak jak wyżej) -->
+                </div>
+            </div>
+            <div class="info"> <!-- div w którym trzymamy różne inforamcje na temat witryny -->
+                <div class="news-info">News Info 3</div> <!-- div na informacje o stronie -->
+                <div class="premium-info">Premium Info</div> <!-- div na informacje o funkcji premium strony -->
+                <div class="ad">Ad</div> <!-- div na reklame -->
+            </div> <!-- znacznik zamukający tag "div" -->
+        </div>
+    </div>
+</body> <!-- Znacznik zamykający sekcje "body" (wymagany) -->
+</html> <!-- Znacznik zamykający tag "html" (wymagany) -->
