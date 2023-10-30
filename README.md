@@ -1,4 +1,4 @@
-###Strona z quizami
+Strona z quizami
 Cel? 
 strona naukowa oparta na quizach w różnych dziedzinach nauki szkolnej ma pomoc w nauce/ urozmaicić ja/sprawic aby była ciekawsza i łatwo dostępna w każdym miejscu
 Zasada? 
