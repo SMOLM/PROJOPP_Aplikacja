@@ -1,52 +1,52 @@
-<!DOCTYPE html> <!-- Zapis informujący przeglądarke iż kod jest napisany w wersji HTML5 -->
-<html lang="en"> <!-- W znaczniku "html" zapisujemy całą naszą strone -->
-<head> <!-- W znaczniku "head" zwieramy informacje o stronie takie jak tytuł, standard znakowy i inne -->
-    <meta charset="UTF-8"> <!-- ustawia standard znakowy -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- kompatybilnosc -->
-    <title>Document</title> <!-- tytuł dokumentu -->
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
 
-    <link rel="stylesheet" href="./math-style.css"> <!-- link który podłącza plik css do html -->
-    <link rel="stylesheet" href="../../src/fontello/css/fontello.css"> <!-- drugi link który podłącza plik css do html -->
-</head> <!-- znacznik zamykający sekcje "head" -->
-<body> <!-- znacznik otwierający sekcje "body" -->
-    <div class="container">  <!-- div który będzie trzymał w sobie reszte divów -->
-        <div class="header"> <!-- div header czyli nagłówek naszej strony -->
-            <div class="logo"><a href="../../index.html"><span class="logospan">Quizify</span></a></div> <!-- div który odpowiada za logo -->
-            <div class="premium"><i class="icon-diamond"></i></div> <!-- div który jest odnosikiem do strony z premium -->
-            <a href="../../subpages/user-log/user-log.html"> <!-- link do podstorny -->
-                <div class="user"><i class="icon-user"></i></div> <!-- div który jest odnośnikiem (linkiem) do strony logowania -->
+    <link rel="stylesheet" href="./math-style.css"> 
+    <link rel="stylesheet" href="../../src/fontello/css/fontello.css"> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="header"> 
+            <div class="logo"><a href="../../index.html"><span class="logospan">Quizify</span></a></div> 
+            <div class="premium"><i class="icon-diamond"></i></div> 
+            <a href="../../subpages/user-log/user-log.html"> 
+                <div class="user"><i class="icon-user"></i></div> 
             </a>
         </div>
-        <div class="content"> <!-- tworzy div w którym znajdzie się cały kontent tej strony -->
-            <div class="questions" id="questions"> <!-- tworzy div na pytania -->
-				<h2>Dodawanie/Odejmowanie</h2> <!-- tworzy nagłówek 2 stopnia -->
-                <br> <!-- kolejny element będzie w następnej "linijce" -->
-                <div id="questionText1">Pytanie</div> <!-- Tu wstawiamy pytanie dzięki funkcji JS -->
-                <br><br> <!-- tworzy odstęp między elementami strony -->
-                <button id="randomButton1">Losuj</button> <!-- dodaje guzik do losowania odpowiedzi -->
-                <input type="text" id="answerInput1"> <!-- dodaje pole do wstawiania odpowiedzi -->
-                <button id="submitButton1">Sprawdź</button> <!-- dodaje guzik do sprawdzania odpoweidzi -->
+        <div class="content"> 
+            <div class="questions" id="questions"> 
+				<h2>Dodawanie/Odejmowanie</h2> 
+                <br> 
+                <div id="questionText1">Pytanie</div> 
+                <br><br> 
+                <button id="randomButton1">Losuj</button> 
+                <input type="text" id="answerInput1"> 
+                <button id="submitButton1">Sprawdź</button> 
             </div>
-			<div class="questions" id="questions"> <!-- tworzy div na pytania -->
-				<h2>Mnożenie/Dzielenie</h2> <!-- tworzy nagłówek 2 stopnia -->
-                <br> <!-- kolejny element będzie w następnej "linijce" -->
-                <div id="questionText2">Pytanie</div> <!-- Tu wstawiamy pytanie dzięki funkcji JS -->
-                <br><br> <!-- tworzy odstęp między elementami strony -->
-                <button id="randomButton2">Losuj</button> <!-- dodaje guzik do losowania odpowiedzi -->
-                <input type="text" id="answerInput2"> <!-- dodaje pole do wstawiania odpowiedzi -->
-                <button id="submitButton2">Sprawdź</button> <!-- dodaje guzik do sprawdzania odpoweidzi -->
+			<div class="questions" id="questions"> 
+				<h2>Mnożenie/Dzielenie</h2> 
+                <br> 
+                <div id="questionText2">Pytanie</div>
+                <br><br> 
+                <button id="randomButton2">Losuj</button> 
+                <input type="text" id="answerInput2">
+                <button id="submitButton2">Sprawdź</button> 
             </div>
-			<div class="questions" id="questions"> <!-- tworzy div na pytania -->
-				<h2>Potęgi/Pierwiastki</h2> <!-- tworzy nagłówek 2 stopnia -->
-                <br> <!-- kolejny element będzie w następnej "linijce" -->
-                <div id="questionText3">Pytanie</div> <!-- Tu wstawiamy pytanie dzięki funkcji JS -->
-                <br><br> <!-- tworzy odstęp między elementami strony -->
-                <button id="randomButton3">Losuj</button> <!-- dodaje guzik do losowania odpowiedzi -->
-                <input type="text" id="answerInput3"> <!-- dodaje pole do wstawiania odpowiedzi -->
-                <button id="submitButton3">Sprawdź</button> <!-- dodaje guzik do sprawdzania odpoweidzi -->
+			<div class="questions" id="questions"> 
+				<h2>Potęgi/Pierwiastki</h2> 
+                <br> 
+                <div id="questionText3">Pytanie</div> 
+                <br><br> 
+                <button id="randomButton3">Losuj</button> 
+                <input type="text" id="answerInput3"> 
+                <button id="submitButton3">Sprawdź</button> 
             </div>
         </div>
     </div>
-    <script src="./math-script.js"></script> <!-- podpinamy skrypt js -->
-</body> <!-- Znacznik zamykający sekcje "body" (wymagany) -->
-</html> <!-- Znacznik zamykający tag "html" (wymagany) -->
+    <script src="./math-script.js"></script>
+</body> 
+</html> 

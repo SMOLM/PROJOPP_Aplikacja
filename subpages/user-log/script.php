@@ -1,38 +1,38 @@
 <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") { //metoda do przesyłu danych
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        $servername = "localhost"; //zmienna ustalająca nazwe serwera
-        $username = "root"; //zmienna ustalająca nazwe użytkownika
-        $password = "password"; //zmienna ustalająca hasło
-        $dbname = "mydatabase"; //zmienna ustalająca nazwe bazy danych
+        $servername = "localhost";
+        $username = "root";
+        $password = "password";
+        $dbname = "mydatabase";
 
-        $conn = new mysqli($servername, $username, $password, $dbname); //tworzy połączenie z bazą danych
+        $conn = new mysqli($servername, $username, $password, $dbname); 
 
-        if ($conn->connect_error) { //sprawdza połączenie z bazą danych
-            die("Błąd połączenia z bazą danych: " . $conn->connect_error); //jeżeli wystąpi błąd połączenia zakończy się ono oraz zostanie wyświetlona informacja
+        if ($conn->connect_error) { 
+            die("Błąd połączenia z bazą danych: " . $conn->connect_error);  
         }
 
-        $username = $_POST["username"]; //odczytuje nazwe użytkownika z formularza w HTML
-        $password = $_POST["password"]; //odczytuje hasło z formularza w HTML
-        $email = $_POST["email"]; //odczytuje email z formularza w HTML
+        $username = $_POST["username"]; 
+        $password = $_POST["password"]; 
+        $email = $_POST["email"]; 
 
-        $check_query = "SELECT * FROM users WHERE username='$username'"; //zapytanie które sprawdza czy użytkownik już istnieje
-        $check_result = $conn->query($check_query); //wykonuje zapytanie do bazy danych
+        $check_query = "SELECT * FROM users WHERE username='$username'"; 
+        $check_result = $conn->query($check_query); 
 
-        if ($check_result->num_rows > 0) { //sprawdza czy wynik jest większy od zera (gdy jest to znaczy że użytkownik już istnieje)
-            echo "Użytkownik o podanej nazwie już istnieje. Proszę wybrać inną nazwę."; //wypisuje informacje o istnieniu użytkownika
+        if ($check_result->num_rows > 0) { 
+            echo "Użytkownik o podanej nazwie już istnieje. Proszę wybrać inną nazwę."; 
         } else {
-            $hash_password = password_hash($password, PASSWORD_DEFAULT); //haszowanie hasła
+            $hash_password = password_hash($password, PASSWORD_DEFAULT);
 
-            $insert_query = "INSERT INTO users (username, password, email) VALUES ('$username', '$hash_password', '$email')"; //wstawia dane do bazy danych
+            $insert_query = "INSERT INTO users (username, password, email) VALUES ('$username', '$hash_password', '$email')"; 
 
-            if ($conn->query($insert_query) === TRUE) { //sprawdza czy rejestracja sie powiodła
-                echo "Rejestracja udana. Możesz teraz zalogować się <a href='login.php'>tutaj</a>."; //wyświetla informacje o udanym logowaniu
+            if ($conn->query($insert_query) === TRUE) { 
+                echo "Rejestracja udana. Możesz teraz zalogować się <a href='login.php'>tutaj</a>."; 
             } else {
-                echo "Błąd podczas rejestracji: " . $conn->error; //wyświetla informacje że logowanie się nie powiodło
+                echo "Błąd podczas rejestracji: " . $conn->error; 
             }
         }
 
-        $conn->close(); //zamyka połączenie z bazą danych
+        $conn->close();
     }
     ?>

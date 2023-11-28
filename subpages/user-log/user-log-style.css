@@ -1,7 +1,6 @@
 body {
-    margin: 0; /* ustawai margin w całym tagu "body" */
-    padding: 0; /* ustawai padding w całym tagu "body" */
-    /* overflow: hidden; */
+    margin: 0;
+    padding: 0; 
     font-family: sans-serif;
 }
 
@@ -11,19 +10,19 @@ a:link, a:visited {
 }
 
 .container {
-    width: 100vw; /* ustawia szerokość w vw (view width - szerokość okna naszej przeglądarki) */
-    height: 100vh; /* ustawia wysokość w vh (vie height - wysokość okna naszej przeglądarki) */
-    display: flex; /* ustawai element jako flex */
-    flex-direction: column; /* ustawia elementy w kolumnie */
+    width: 100vw;
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
 }
 
 .header {
-    height: 15%; /* ustawia wysokość w % */
-    width: 100%; /* ustawia szerokość w % */
-    display: flex; /* ustawai element jako flex */
-    align-items: center; /* ustawia elementy na środku (wyśrodkowuje je) */
-    background-color: #333; /* ustawai kolor tła */
-    color: white; /* ustawai kolor czcionki */
+    height: 15%; 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    background-color: #333;
+    color: white; 
 }
 
 .logospan {
@@ -32,10 +31,10 @@ a:link, a:visited {
     padding: 5px;
 }
 .logo {
-    height: 90%; /* ustawia wysokość w % */
-    width: 50%; /* ustawia serokość w % */
-    margin-left: 2%; /* ustawia margin po lewo */
-    margin-right: 35%; /* ustawia margin po prawo */
+    height: 90%; 
+    width: 50%; 
+    margin-left: 2%; 
+    margin-right: 35%; 
 	box-sizing: border-box;
     font-size: 110px;
     color: white;
@@ -45,42 +44,41 @@ a:link, a:visited {
 }
 
 .premium, .user {
-    height: 70%; /* ustawia wysokość w % */
-    width: 7%; /* ustawia szerokość w % */
-    margin: 2%; /* ustawia margin do okoła elementu na 2% */
-    /* background-color: #007bff; */
-    color: white; /* ustawia kolor czcionki na biały */
+    height: 70%;
+    width: 7%;
+    margin: 2%; 
+    color: white;
 }
 
 .content {
-    height: 85%; /* ustawia wysokość w % */
-    width: 100%; /* ustawia szerokość w % */
-    display: flex; /* ustawai element jako flex */
-    flex-direction: row; /* ustawia elementy w szeregu */
+    height: 85%; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
 }
 
 .login {
-    height: 100%; /* ustawia wysokość w % */
-    width: 50%; /* ustawia szerokość w % */
-    text-align: center; /* ustawia elementy na środku (wyśrodkowuje je) */
-    font-size: 25px; /* utawai rozmiar czcionki an 25px */
+    height: 100%; 
+    width: 50%; 
+    text-align: center;
+    font-size: 25px; 
 }
 
 .login-form {
-    height: 35%; /* ustawia wysokość w % */
-    width: 40%; /* ustawia szerokość w % */
-    margin-top: 20%; /* ustawia mrgin na górze na 20% */ 
-    margin-left: 20%; /* ustawia margin z lewej na 20% */
-    padding: 3%; /* ustawai padding na 2% */
-    background-color: #ccc; /* ustawai kolor tła */
-    border-radius: 5%; /* ustawai border na 5% */
+    height: 35%; 
+    width: 40%; 
+    margin-top: 20%; 
+    margin-left: 20%; 
+    padding: 3%;
+    background-color: #ccc;
+    border-radius: 5%;
 }
 
 .register {
-    height: 100%; /* ustawia wysokość w % */
-    width: 50%; /* ustawia szerokość w % */
-    text-align: center; /* ustawia elementy na środku (wyśrodkowuje je) */
-    font-size: 25px; /* ustawia rozmiar czcionki na 25px */
+    height: 100%; 
+    width: 50%;
+    text-align: center; 
+    font-size: 25px; 
 }
 
 .register-form {
