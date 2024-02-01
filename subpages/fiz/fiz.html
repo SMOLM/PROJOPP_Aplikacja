@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+
+    <link rel="stylesheet" href="./fiz-style.css">
+    <link rel="stylesheet" href="../../src/fontello/css/fontello.css"> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="header"> 
+            <div class="logo"><a href="../../index.html"><span class="logospan">Quizify</span></a></div> 
+            <div class="premium"><i class="icon-diamond"></i></div> 
+            <a href="../../subpages/user-log/user-log.html"> <!-- podpięcie podstorny z logowaniem -->
+                <div class="user"><i class="icon-user"></i></div>
+            </a>
+        </div>
+        <div class="content"> 
+            <div class="questions" > 
+				<h2>Prędkość, czas, odległość</h2> <!-- quiz na dodawanie i odejmowanie -->
+                <br> 
+                <div id="questionText1">Pytanie</div> <!-- napis "pytanie" pod który podstawimy wylosowane działanie -->
+                <br><br> 
+                <button class="randomButton" id="randomButton1">Losuj</button> 
+                <input type="text" id="answerInput1"> <!-- miejsce w które użytkownik wstawia odpowiedź-->
+                <button id="submitButton1">Sprawdź</button> 
+            </div>
+			<div class="questions"> 
+				<h2>Prąd i jego koledzy</h2> <!-- quzi na mnożenie i dzielenie -->
+                <br> 
+                <div id="questionText2">Pytanie</div> <!-- napis "pytanie" pod który podstawimy wylosowane działanie -->
+                <br><br> 
+                <button class="randomButton" id="randomButton2">Losuj</button> 
+                <input type="text" id="answerInput2"> <!-- miejsce w które użytkownik wstawia odpowiedź-->
+                <button id="submitButton2">Sprawdź</button> 
+            </div>
+			<div class="questions"> 
+				<h2>Planety i kosmiczne obiekty</h2> 
+                <br> 
+                <div id="questionText3">Pytanie</div> 
+                <br><br> 
+                <button class="randomButton" id="randomButton3">Losuj</button> 
+                <input type="text" id="answerInput3"> 
+                <button id="submitButton3">Sprawdź</button> 
+            </div>
+        </div>
+    </div>
+    <script src="./fiz-script.js"></script>
+</body> 
+</html> 

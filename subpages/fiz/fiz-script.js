@@ -3,8 +3,8 @@ function getRandomInt(max) {
   }
 
 let questions= [
-    ["Eye", "Oko"],
-    ["Noga", "Leg"],
+    ["Auto przejechało 15km w 12 minut. Z jaką prętkością jechało? (odpowiedź z jednostką bez odstępu od numeru)", "75km/h"],
+    ["Sportowiec biegnie 10km/h. W ile przebigenie 3km? (odpowiedz podaj z jednistką bez odstępu od numeru)", "18min"],
 ];
 
 const quest1 = document.getElementById("questionText1"); 
@@ -27,8 +27,8 @@ sumbit1.addEventListener("click", () => {
 });
 
 let questions2= [
-	["Panda", "Panda"],
-	["Łosoś", "Salmon"],
+	["Masz urządzenie elektryczne o napięciu U równym 230 V i prądzie I wynoszącym 5 A. Oblicz moc elektryczną P.", "1150W"],
+	["Masz obwód elektryczny z napięciem U równym 12 V i mocą P równą 48 W. Oblicz opór elektryczny R", "3ohmy"],
 ];
 
 const quest2 = document.getElementById("questionText2"); 
@@ -50,8 +50,8 @@ sumbit2.addEventListener("click", () => {
 });
 
 let questions3= [
-    ["Pieczone ziemniaki", "Baked potatto"],
-    ["Steak", "Stek"],
+    ["Oblicz przyspieszenie na powierzchni planety o masie 5.97 * 10^24kg i promieniu 6.371 * 10^6m.", "9.81m/s^2"],
+    ["Oblicz energię potencjalną obiektu o masie 100kg na 5km nad powierzchnią planety. (Odpowiedź podaj w przybliżeniu)", "4.905 * 10^6J"],
 ];
 
 
