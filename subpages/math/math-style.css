@@ -6,7 +6,7 @@ body {
 }
 
 a:link, a:visited {
-    color: white;
+    color: #d4d4d4;
     text-decoration: none;
 }
 
@@ -22,12 +22,12 @@ a:link, a:visited {
     width: 100%; 
     display: flex; 
     align-items: center;
-    background-color: #333; 
-    color: white; 
+    background-color: #1f1f1f;
+    color: #d4d4d4; 
 }
 
 .logospan {
-    background-color: #007bff;
+    background-color: #37474f;
     border-radius: 20px;
     padding: 5px;
 }
@@ -38,10 +38,10 @@ a:link, a:visited {
     margin-right: 35%; 
 	box-sizing: border-box;
     font-size: 110px;
-    color: white;
+    color: #d4d4d4;
 }
 .logo a {
-    color: white;
+    color: #d4d4d4; 
 }
 
 .premium, .user { 
@@ -49,7 +49,7 @@ a:link, a:visited {
     width: 7%; 
     margin: 2%; 
     margin-right: 2%; 
-    color: white; 
+    color: #d4d4d4; 
 }
 
 .content {
@@ -57,6 +57,7 @@ a:link, a:visited {
     width: 100%; 
     display: flex;
     flex-direction: row; 
+    background-color: #383838;
 }
 
 .questions { 
@@ -64,6 +65,6 @@ a:link, a:visited {
     width: 20%; 
     padding: 3%; 
     margin: 5%;
-    background-color: #ccc; 
+    background-color: #455a64;
     text-align: center; 
 }
