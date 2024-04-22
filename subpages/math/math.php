@@ -11,9 +11,9 @@
 <body> 
     <div class="container"> 
         <div class="header"> 
-            <div class="logo"><a href="../../index.html"><span class="logospan">Quizify</span></a></div> 
+            <div class="logo"><a href="../../index.php"><span class="logospan">Quizify</span></a></div> 
             <div class="premium"><i class="icon-diamond"></i></div> 
-            <a href="../../subpages/user-log/user-log.html"> <!-- podpięcie podstorny z logowaniem -->
+            <a href="../../subpages/user-log/user-log.php"> <!-- podpięcie podstorny z logowaniem -->
                 <div class="user"><i class="icon-user"></i></div>
             </a>
         </div>

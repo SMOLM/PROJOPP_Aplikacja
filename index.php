@@ -11,16 +11,16 @@
 <body> 
     <div class="container">  
         <div class="header"> 
-            <div class="logo"><a href="./index.html"><span class="logospan">Quizify</span></a></div> 
+            <div class="logo"><a href="./index.php"><span class="logospan">Quizify</span></a></div> 
             <div class="premium"><i class="icon-diamond"></i></div> 
-            <a href="./subpages/user-log/user-log.html"> 
+            <a href="./subpages/user-log/user-log.php"> 
                 <div class="user"><i class="icon-user"></i></div> 
             </a>
         </div>
         <div class="content-box"> 
             <div class="menu"> 
                 <div class="column">
-                    <a href="./subpages/math/math.html"> 
+                    <a href="./subpages/math/math.php"> 
                         <div class="quiz-link">Mat</div> 
                     </a>
                     <!-- <a href="./subpages/fiz/fiz.html"> -->
