@@ -17,7 +17,7 @@
             <div class="login">
                 <div class="login-form">
                     <h2>Loguj</h2>
-                    <form method="post" action="<?php echo htmlspecialchars($_SERVER[PHP_SELF]);?>">
+                    <form method="post" action="./user-log.php">
                         Login: <input type="text" name="login"><br>
                         Hasło: <input type="password" name="password"><br>
                         <input type="submit" name="login_user" value="Zaloguj">
@@ -27,7 +27,7 @@
             <div class="register">
                 <div class="register-form">
                     <h2>Formularz rejestracji</h2>
-                    <form method="post" action="<?php echo htmlspecialchars($_SERVER[PHP_SELF]);?>">
+                    <form method="post" action="./user-log.php">
                         Login: <input type="text" name="login"><br>
                         Hasło: <input type="password" name="password"><br>
                         <input type="submit" name="register" value="Zarejestruj">

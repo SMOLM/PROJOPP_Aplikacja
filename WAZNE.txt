@@ -1,0 +1,2 @@
+Aby, php zadziałał należy uruchomić xamppa (Apache oraz MySQL), wrzycić cały folder do folderu htdocs, 
+a następnie w przeglądarce wpisać http://localhost/PROJOPP_Aplikacja/index.php.

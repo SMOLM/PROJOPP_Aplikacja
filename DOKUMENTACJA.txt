@@ -1,0 +1,71 @@
+Aplikacja Quizify
+
+Wersja 0.0 Beta
+- Implementacja pomysłu na kod;
+- Stworzenie pierwszych zaczątków strony oraz pierwszego quizu;
+
+Wersja 0.0.2 Beta
+
+- Poprawiona czytelność kodu;
+
+Wersja 0.0.4 Baet
+
+- Zmienione nazwy zmiennych na bardziej sensowne/nadające im sens;
+
+Wersja 0.0.6 Beta
+
+- Zastosowanie metodyu DRY w celu optymalizacji kodu;
+
+Wersja 0.0.8 Beta
+
+- Dodanie komentarzy w kodzie, aby był zrozumiały dla innych programistów;
+
+Wersja 0.1 Beta
+
+- Zastosowanie metody YAGNI w celu optymalizacji kodu;
+
+Wersja 0.2 Beta
+
+- Stworzenie quizu o języku angielskim;
+
+Wersja 0.3 Beta
+
+- Stworzenie quizu o fizyce;
+
+Wersja 0.4 Beta
+
+- Stworzeniue quizów o informatyce i biologii;
+
+Wersja 0.5 Beta
+
+- Stworzenie quizu o języku niemieckiem; 
+
+Wersja 0.6 Beta
+
+- Stworzenie quizu o chemii;
+
+Wersja 0.7 Beta
+
+- Stworzenie quizu z geografii;
+
+Wersja 0.8 Beta
+
+- Stworzenie quizu z historii;
+
+Wersja 0.8.5 Beta
+
+- Testowanie aplikacji;
+
+Wersja 0.9 Beta
+
+- Zmiana css na przyjemniejszy wygląd;
+- Kilka quizów stało się premium (bez konta premium nie możemy ich robić);
+- Stworzenie skrytpu php do rejestracji i logowania użytkowników;
+
+Wersja 0.9.5 Beta
+
+- Debbugowanie aplikacji;
+
+Wersja 1.0
+
+- Finalna wersja projekt ukończony, otwarty na urozmaicenia;
